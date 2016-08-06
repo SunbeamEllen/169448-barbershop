@@ -5,8 +5,136 @@
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
+  	<header class="main-header">
+  		<div class="container">
+  			<nav class="main-navigation">
+  				<ul>
+  					<li>
+  						<a href="#">Информация</a>
+  						<a href="#">Новости</a>
+  						<a href="#">Прайс-лист</a>
+  						<a href="#">Магазин</a>
+  						<a href="#">Контакты</a>
+  					</li>
+  				</ul>
+  			</nav>
+  		</div> 
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  		<div class="user-block">
+  			<a class="login" href="#">Вход</a>
+  		</div> 		
+  	</header>
 
+  	<main class="container">
+  		<div class="index-logo">
+  			<img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+  		</div>
+
+  		<section class="features">
+  			<div class="features-item">
+  				<span class="features-name">Быстро</span>
+  				<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!
+  				</p>  				
+  			</div>
+
+  			<div class="featires-item">
+  				<span class="features-name">Круто</span>
+  				<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.
+  				</p>	
+  			</div>
+
+  			<div class="featires-item">
+  				<span class="features-name">Дорого</span>
+  				<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?
+  				</p>  				
+  			</div>
+  		</section>
+
+  		<div class="index-content">
+  			<div class="index-content-left">
+  				<h2 class="index-content-title">Новости</h2>
+  				<ul class="news-preview">
+  					<li>
+  						<p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки
+  						</p>
+  						<time datetime="2016-01-11">11 января</time>
+  					</li>
+  					<li>
+  						<p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+  						</p>
+  						<time datetime="2016-01-18">18 января</time>
+  					</li>
+  					<a href="#" class="btn">Все новости</a>
+  				</ul>  				  				
+  			</div>
+
+  			<div class="index-content-right">
+  				<h2 class="index-content-title">Фотогалерея</h2>
+  				 
+  				<div class="gallery">
+  					<figure class="gallery-content">
+  						<img src="" alt="Фотогалерея">
+  					</figure>  					
+  					<button class="btn gallery-prev"></button>
+  					<button class="btn gallery-next"></button>		 	
+  				</div>  				
+  			</div>
+  		</div>
+
+  		<div class="index-content">
+  			<div class="index-content-right">
+  				<h2 class="index-content-title">Контактная информация</h2>
+  				<p>Барбершоп «Бородинский»<br>
+            	Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            	Телефон: +7 (812) 666-02-66
+            	</p>
+  				<p>Время работы:<br>
+            	пн — пт: с 10:00 до 22:00<br>
+            	сб — вс: с 10:00 до 19:00
+            	</p>
+
+            	<a href="" class="btn">Как проехать</a>
+            	<a href="" class="btn">Обратная связь</a>  				
+  			</div>
+
+  			<div class="index-content-left">
+  				<h2 class="index-content-title">Записаться</h2>
+  				<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+  				</p>
+
+  				<form class="appointment-form" action="" method="post">
+  					<input type="text" name="date" placeholder="дата">
+  					<input type="text" name="time" placeholder="время">
+  					<input type="text" name="name" placeholder="ваше имя">
+  					<input type="tel" name="phone" placeholder="телефон">  
+  					<button class="btn" type="submit">Отправить</button>
+  				</form>
+  			</div>
+  		</div>
+  	</main>
+
+  	<footer class="main-footer">
+  		<div class="container">
+  			<div class="footer-contacts">
+  				<p>Барбершоп «Бородинский»<br>
+         		Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          		<a href="#">Как нас найти?</a><br>
+          		Телефон: +7 (812) 666-02-66
+  				</p>
+  			</div>
+
+  			<div class="footer-social">
+  				<p>Давайте дружить!</p>
+  				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          		<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          		<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+  			</div>
+
+  			<div class="footer-copyright">
+  				<p>Разработано:</p>
+  				<a class="btn" href="https://htmlacademy.ru">HTML academy</a>  				
+  			</div>
+  		</div>
+  	</footer>
   </body>
 </html>
