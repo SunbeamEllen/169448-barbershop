@@ -45,45 +45,40 @@
 
   		<div class="main-content">
   			<div class="main-content-left">
-  				<section class="main-content-info">
-  					<h2 class="main-content-info-title">Производители:</h2>
+  				<form class="main-content-info" action="" method="post">            
+            <fieldset class="producers-form">
+              <legend>Производители:</legend>
+  						  <label><input type="checkbox" name="producer" checked="">Baxter of California</label>
+  						  <label><input type="checkbox" name="producer">Mr Natty</label>
+  						  <label><input type="checkbox" name="producer" checked="">Suavecito</label>
+  						  <label><input type="checkbox" name="producer">Malin+Goetz</label>
+  						  <label><input type="checkbox" name="producer">Murray's</label>
+  						  <label><input type="checkbox" name="producer" checked="">American Crew</label>
+            </fieldset>  				
+  					 					
+            <fieldset  class="product-groups">
+              <legend>Группы товаров:</legend>
+                <label><input type="radio" name="group" value="Бритвенные принадлежности">Бритвенные принадлежности</label>
+                <label><input type="radio" name="group" value="Средства для ухода" checked="">Средства для ухода</label>
+                <label><input type="radio" name="group" value="Аксессуары">Аксессуары</label>                         
+            </fieldset>
 
-  					<form class="producers-form" action="" method="post">
-  						<label><input type="checkbox" name="producer" checked="">Baxter of California</label>
-  						<label><input type="checkbox" name="producer">Mr Natty</label>
-  						<label><input type="checkbox" name="producer" checked="">Suavecito</label>
-  						<label><input type="checkbox" name="producer">Malin+Goetz</label>
-  						<label><input type="checkbox" name="producer">Murray's</label>
-  						<label><input type="checkbox" name="producer" checked="">American Crew</label>
-  					</form>
-  				</section>
-
-  				<section class="main-content-info">
-  					<h2 class="main-content-info-title">Группы товаров:</h2>
-
-  					<form class="product-groups" action="" method="post">
-  						<label><input type="radio" name="group" value="Бритвенные принадлежности">Бритвенные принадлежности</label>
-  						<label><input type="radio" name="group" value="Средства для ухода" checked="">Средства для ухода</label>
-  						<label><input type="radio" name="group" value="Аксессуары">Аксессуары</label>
-  						<button class="btn" type="submit">Показать</button>
-  					</form>
-  				</section>  				
+  					<button class="btn" type="submit">Показать</button>  
+  				</form>  				 				
   			</div>
 
   			<div class="main-content-right">
-  				<article class="main-content-product">
-  					<figure>
-  						<img src="http://placehold.it/150x100" alt="Набор для путешествий">
-  						<figcaption>Набор для путешествий "Baxter of California"</figcaption>
+  				<article class="main-content-item">
+  					<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+  						<h2>Набор для путешествий "Baxter of California"</h2>
 
   						<div class="product-price">
   							<span>2900 руб.</span>
-  							<button class="btn product-price">Купить</button>
-  						</div>
-  					</figure>
+  							<a class="btn product-price">Купить</a>
+  						</div>  					
   				</article>
 
-  				<article class="main-content-product">
+  				<article class="main-content-item">
   					<figure>
   						<img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер">
   						<figcaption>Увлажняющий кондиционер"Baxter of California"</figcaption>
@@ -95,7 +90,7 @@
   					</figure>
   				</article>
 
-  				<article class="main-content-product">
+  				<article class="main-content-item">
   					<figure>
   					<img src="http://placehold.it/150x100" alt="Гель для волос">
   						<figcaption>Гель для волос "Suavecito"</figcaption>
@@ -107,7 +102,7 @@
   					</figure>
   				</article>
 
-  				<article class="main-content-product">
+  				<article class="main-content-item">
   					<figure>
   					<img src="http://placehold.it/150x100" alt="Гель для укладки волос">
   						<figcaption>Гель для укладки волос "American Crew"</figcaption>
@@ -119,7 +114,7 @@
   					</figure>
   				</article>
 
-  				<article class="main-content-product">
+  				<article class="main-content-item">
   					<figure>
   					<img src="http://placehold.it/150x100" alt="Гель для волос">
   						<figcaption>Гель для волос "American Crew"</figcaption>
@@ -131,7 +126,7 @@
   					</figure>
   				</article>
 
-  				<article class="main-content-product">
+  				<article class="main-content-item">
   					<figure>
   					<img src="http://placehold.it/150x100" alt="Набор для бритья">
   						<figcaption>Набор для бритья "Baxter of California"</figcaption>
