@@ -1,0 +1,13 @@
+body{
+	font: 14px/24px 'PTSans NarrowBold';
+	background: url("") no-repeat #000;
+}
+
+h1 .main-headline ,
+h2 .index-content-title{
+	font: 30px/42px 'PTSans NarrowBold';
+}
+
+h2 .list-headline{
+	font: 24px/30px 'PTSans NarrowBold';
+}
