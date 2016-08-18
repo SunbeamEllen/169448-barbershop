@@ -6,8 +6,10 @@ body{
 h1 .main-headline ,
 h2 .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
+	color: #000;
 }
 
-h2 .list-headline{
-	font: 24px/30px 'PTSans NarrowBold';
+h3 .image-figcaption {
+	font: 14px/18px 'PTSans NarrowBold';
+	color: #000;
 }
