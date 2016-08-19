@@ -3,13 +3,13 @@ body{
 	background: url("") no-repeat #000;
 }
 
-h1 .main-headline ,
-h2 .index-content-title{
+ .main-headline ,
+ .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
 	color: #000;
 }
 
-h3 .image-figcaption {
+ .image-figcaption {
 	font: 14px/18px 'PTSans NarrowBold';
 	color: #000;
 }
