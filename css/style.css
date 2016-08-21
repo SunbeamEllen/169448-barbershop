@@ -6,6 +6,12 @@ body{
 	min-width: 1112px;
 }
 
+.container{
+	width: 940px;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+
  .main-headline ,
  .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
