@@ -91,6 +91,16 @@ body{
 	float: left;
 }
 
+.catalog-content-list{
+	float: left;
+	width: 220px;
+}
+
+.catalog-content-gallery{
+	float: right;
+	width: 700px;
+}
+
 .main-footer{
 	margin-top: 30px;
 	padding-top: 65px;
