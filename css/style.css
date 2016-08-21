@@ -132,19 +132,21 @@ body{
 	margin-bottom: 49px;
 }
 
+figure{margin: 0;}
+
 .catalog-item-gallery{
 	float: left;
 	width: 460px;
 	padding-right: 20px;
 }
 
-.gallery-image{
+.small-images>.gallery-image{
 	float: left;
 	width: 140px;
 	margin-right: 20px;
 }
 
-.gallery-image:last-child{margin-right: 0px;}
+.small-images>.gallery-image:last-child{margin-right: 0px;}
 
 /*=========Catalog-Item Barbershop End=========*/
 
