@@ -50,7 +50,10 @@ body{
 	margin-right: 0;
 }
 
-.index-content{padding: 50px 80px;}
+.index-content{
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
 
 .index-content-news, .index-content-contact{
 	float: left;
@@ -61,6 +64,8 @@ body{
 	float: right;
 	width: 300px;
 }
+
+.appointment-form{display: none;}
 
 .main-headline, .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
