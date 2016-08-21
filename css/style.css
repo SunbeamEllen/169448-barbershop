@@ -3,7 +3,7 @@ body{
 	background: #fff;
 	margin: 0;
 	padding: 0;
-	min-width: 1112px;
+	min-width: 1122px;
 }
 .clearfix::after{
 	content: "";
