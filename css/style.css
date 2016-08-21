@@ -12,6 +12,16 @@ body{
 	margin: 0 auto;
 }
 
+.main-navigation{
+	float: left;
+	width: 780px;
+}
+
+.user-block{
+	float: right;
+	width: 140px;
+}
+
  .main-headline ,
  .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
