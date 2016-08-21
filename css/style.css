@@ -148,6 +148,12 @@ figure{margin: 0;}
 
 .small-images>.gallery-image:last-child{margin-right: 0px;}
 
+.catalog-item-product{
+	float: right;
+	width: 390px;
+	padding-left: 10px;
+}
+
 /*=========Catalog-Item Barbershop End=========*/
 
 /*=========FOOTER=========*/
