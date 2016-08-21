@@ -101,6 +101,15 @@ body{
 	width: 700px;
 }
 
+.gallery-content{width: 700px;}
+.catalog-content-item{
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.catalog-content-item:last-child{margin-right: 0px;}
+
 .main-footer{
 	margin-top: 30px;
 	padding-top: 65px;
