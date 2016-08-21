@@ -38,6 +38,8 @@ body{
 	margin-bottom: 32px;
 } 
 
+.features {margin-bottom: 83px;}
+
 .features-item{
 	float: left;
 	width: 300px;
@@ -48,8 +50,19 @@ body{
 	margin-right: 0;
 }
 
-.main-headline ,
-.index-content-title{
+.index-content{padding: 50px 80px;}
+
+.index-content-news, .index-content-contact{
+	float: left;
+	width: 380px;
+}
+
+.index-content-gallery, .index-content-appointment{
+	float: right;
+	width: 300px;
+}
+
+.main-headline, .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
 	color: #000;
 }
@@ -58,3 +71,4 @@ body{
 	font: 14px/18px 'PTSans NarrowBold';
 	color: #000;
 }
+
