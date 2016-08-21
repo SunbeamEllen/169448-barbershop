@@ -36,6 +36,16 @@ body{
 	height: 204px;
 	margin: 0 auto;
 	margin-bottom: 32px;
+} 
+
+.features-item{
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.features-item:last-child{
+	margin-right: 0px;
 }
 
 .main-headline ,
