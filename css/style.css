@@ -45,7 +45,7 @@ body{
 }
 
 .features-item:last-child{
-	margin-right: 0px;
+	margin-right: 0;
 }
 
 .main-headline ,
