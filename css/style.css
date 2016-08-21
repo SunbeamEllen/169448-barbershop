@@ -31,6 +31,8 @@ body{
 	width: 140px;
 }
 
+main {margin-bottom: 30px;}
+
 .index-logo{
 	width: 368px;
 	height: 204px;
@@ -65,8 +67,6 @@ body{
 	width: 300px;
 }
 
-.appointment-form{display: none;}
-
 .main-headline, .index-content-title{
 	font: 30px/42px 'PTSans NarrowBold';
 	color: #000;
@@ -75,5 +75,9 @@ body{
 .image-figcaption {
 	font: 14px/18px 'PTSans NarrowBold';
 	color: #000;
+}
+
+.main-footer{
+
 }
 
