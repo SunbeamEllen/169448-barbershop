@@ -1,6 +1,9 @@
 body{
 	font: 14px/24px 'PTSans NarrowBold';
-	background: url("") no-repeat #000;
+	background: #000;
+	margin: 0;
+	padding: 0;
+	min-width: 1112px;
 }
 
  .main-headline ,
