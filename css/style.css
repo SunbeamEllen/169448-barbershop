@@ -31,8 +31,6 @@ body{
 	width: 140px;
 }
 
-main {margin-bottom: 30px;}
-
 .index-logo{
 	width: 368px;
 	height: 204px;
@@ -78,6 +76,8 @@ main {margin-bottom: 30px;}
 }
 
 .main-footer{
-
+	margin-top: 30px;
+	padding-top: 65px;
+	padding-bottom: 42px;
 }
 
