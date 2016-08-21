@@ -81,3 +81,19 @@ body{
 	padding-bottom: 42px;
 }
 
+.footer-contacts{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-social{
+	float: left;
+	width: 180px;
+}
+
+.footer-copyright{
+	float: right;
+	width: 160px;
+}
+
